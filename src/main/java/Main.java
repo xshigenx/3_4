@@ -25,7 +25,7 @@ public class Main {
             for (int j = 0; j < size - 2; j++) {
                 System.out.print("  ");
             }
-            System.out.println(" " + symbol);
+            System.out.println(symbol);
         }
 
         for (int i = 0; i < size; i++) {
