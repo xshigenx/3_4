@@ -10,10 +10,10 @@ public class Main {
         System.out.println("Podaj znak, z którego ma być zbudowana ramka:");
         char symbol = scanner.next().charAt(0);
 
-        generateFrameSquare(size, symbol);
+        Ramka(size, symbol);
     }
 
-    public static void generateFrameSquare(int size, char symbol) {
+    public static void Ramka(int size, char symbol) {
 
         for (int i = 0; i < size; i++) {
             System.out.print(symbol + " ");
